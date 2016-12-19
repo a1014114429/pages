@@ -10,8 +10,10 @@
 
 ![tupian](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png)
 
+***
+
 |Tables       |Are          |cool   |
 |-------------|:-----------:|------:|
 |col 3 is     |rigth-aligned|  $1600|
 |col 2 is     |centered     |    $12|
-|zebra stripes|are neat     |$1     |
+|zebra stripes|are neat     |     $1|
