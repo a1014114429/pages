@@ -7,4 +7,5 @@
 ### 页面
 
 1. [堆糖首页](https://a1014114429.github.io/pages/duitang/)
-![tupian](https://a-ssl.duitang.com/uploads/item/201612/17/20161217173227_rafnY.jpeg)
+
+![tupian](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png)
