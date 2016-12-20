@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: #f1f2f3;
+}
+
+.u-container {
+    margin: auto;
+    width: 956px;
+    height: 100%;
+}
+
+.u-cf::before,
+.u-cf::after {
+      display: table;
+      content: " ";
+}
+
+.u-cf::after {
+    clear: both;
+}
+
+.Header {
+    position: fixed;
+    width: 100%;
+    height:64px;
+    border-bottom: 1px solid #cee3f2;
+    background: #fff;
+}
+
+.Header-logo {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background: url(img/logo.png) no-repeat center;
+    text-indent: -999px;
+}
