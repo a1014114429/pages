@@ -1,6 +1,13 @@
 body {
     margin: 0;
     background: #f1f2f3;
+    color: #666;
+    font: 12px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .u-container {
@@ -33,4 +40,75 @@ body {
     height: 100%;
     background: url(img/logo.png) no-repeat center;
     text-indent: -999px;
+}
+
+.Header-filters {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 22px;
+    height: 100%;
+}
+
+.Header-categories {
+    position: relative;
+    font-size: 14px;
+}
+
+.Header-categoriesTrigger {
+    position: relative;
+    z-index: 10;
+    padding-right: 10px;
+    width: 58px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    background: url(img/arrow-down.png) no-repeat 49px center;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.Header-categories:hover .Header-categoriesTrigger {
+    border-bottom-color: #fff;
+    background-image: url(img/arrow-up.png);
+}
+
+.Header-categoriesContent {
+    position: absolute;
+    top: 27px;
+    display: none;
+    padding: 40px 30px 20px;
+    width: 300px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
+
+.Header-categories:hover .Header-categoriesContent {
+    display: block;
+    background: #fff;
+}
+
+.Header-categoriesModules {
+    float: left;
+    width: 80px;
+}
+
+.Header-categoriesModuleLink {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.Header-categoriesBd {
+    float: left;
+    width: 220px;
+}
+
+.Header-categoriesRow {
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.Header-categoryLink {
+    margin-right: 2em;
 }
