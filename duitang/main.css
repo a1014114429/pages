@@ -6,6 +6,7 @@ body {
 }
 
 a {
+    display: block;
     color: inherit;
     text-decoration: none;
 }
@@ -191,16 +192,32 @@ a {
 
 .Focus-item {
     position: relative;
+    display: none;
     float: left;
     width: 712px;
     height: 445px;
 }
 
-.Focus-img1 {
+.Focus-item.is-current {
     display: block;
+}
+
+.Focus-img1 {
     width: 710px;
     height: 443px;
     background: url(img/jdt-1.jpeg) no-repeat;
+}
+
+.Focus-img2 {
+    width: 710px;
+    height: 443px;
+    background: url(img/jdt-2.jpeg) no-repeat;
+}
+
+.Focus-img3 {
+    width: 710px;
+    height: 443px;
+    background: url(img/jdt-3.png) no-repeat;
 }
 
 .Focus-title {
@@ -224,7 +241,7 @@ a {
 
 .Focus-points {
     position: absolute;
-    right: 49px;
+    right: 15px;
     bottom: 76px;
     z-index: 5;
     overflow:hidden;
@@ -239,4 +256,8 @@ a {
     height: 12px;
     background: url(img/xbt.png) -622px -244px no-repeat ;
     cursor: pointer;
+}
+
+.Focus-point.is-current {
+    background-position-x: -642px;
 }
