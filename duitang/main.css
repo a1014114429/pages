@@ -173,8 +173,22 @@ a {
     cursor: pointer;
 }
 
-.saoma：hover .for-phone {
-    background: url(img/arrow-up.png) no-repeat center;
+.Header-qrcode {
+    position: relative;
+}
+
+.Header-qrContent {
+    position: absolute;
+    top: 47px;
+    left: -20px;
+    display: none;
+    width: 188px;
+    height: 200px;
+    background: url(img/qrcode.png);
+}
+
+.Header-qrcode:hover .Header-qrContent {
+    display: block;
 }
 
 .Content {
