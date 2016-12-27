@@ -28,6 +28,7 @@ a {
 
 .Header {
     position: fixed;
+    z-index: 15;
     width: 100%;
     height:64px;
     border-bottom: 1px solid #cee3f2;
@@ -119,4 +120,123 @@ a {
     width: 200px;
     border: 1px solid #e1e1e1;
     background: url(img/search.png) no-repeat 210px center;
+}
+
+.Header-helpers {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 100%;
+    font-size: 14px;
+}
+
+.Header-helperItem {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 25px;
+}
+
+.Header-new {
+    margin-left: 5px;
+    padding: 0 3px 2px;
+    border-radius: 2px;
+    background: #f46;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Header-btn {
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.Header-btn--hili {
+    background: #f46;
+    color: #fff;
+}
+
+.phone-logo {
+    float: left;
+    width: 11px;
+    height: 100%;
+    background: url(img/phone.png) no-repeat center;
+    text-indent: 999px;
+}
+
+.for-phone {
+    position: relative;
+    z-index: 10;
+    padding: 5px 15px;
+    background: url(img/arrow-down.png) no-repeat 63px center;
+    cursor: pointer;
+}
+
+.saoma：hover .for-phone {
+    background: url(img/arrow-up.png) no-repeat center;
+}
+
+.Content {
+    width: 1200px;
+    height: 4453px;
+}
+
+.Focus {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 712px;
+    height: 455px;
+}
+
+.Focus-item {
+    position: relative;
+    float: left;
+    width: 712px;
+    height: 445px;
+}
+
+.Focus-img1 {
+    display: block;
+    width: 710px;
+    height: 443px;
+    background: url(img/jdt-1.jpeg) no-repeat;
+}
+
+.Focus-title {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    padding-left: 17px;
+    width: 615px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 28px;
+    line-height: 64px;
+}
+
+.Focus-lstitle {
+    float: left;
+}
+
+
+.Focus-points {
+    position: absolute;
+    right: 49px;
+    bottom: 76px;
+    z-index: 5;
+    overflow:hidden;
+    width: 104px;
+    height:12px
+}
+
+.Focus-point {
+    float: left;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    background: url(img/xbt.png) -622px -244px no-repeat ;
+    cursor: pointer;
 }
