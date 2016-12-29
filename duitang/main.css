@@ -1,19 +1,19 @@
 body {
     margin: 0;
+    padding-top: 100px;
     background: #f1f2f3;
     color: #666;
     font: 12px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 
 a {
-    display: block;
     color: inherit;
     text-decoration: none;
 }
 
 .u-container {
     margin: auto;
-    width: 956px;
+    width: 1200px;
     height: 100%;
 }
 
@@ -29,6 +29,7 @@ a {
 
 .Header {
     position: fixed;
+    top:0;
     z-index: 15;
     width: 100%;
     height:64px;
@@ -173,13 +174,16 @@ a {
     cursor: pointer;
 }
 
+.Header-qrcode:hover .for-phone {
+    background-image: url(img/arrow-up.png);
+}
 .Header-qrcode {
     position: relative;
 }
 
 .Header-qrContent {
     position: absolute;
-    top: 47px;
+    top: 46px;
     left: -20px;
     display: none;
     width: 188px;
@@ -191,16 +195,10 @@ a {
     display: block;
 }
 
-.Content {
-    width: 1200px;
-    height: 4453px;
-}
-
 .Focus {
     position: relative;
-    padding-top: 100px;
-    padding-left: 100px;
-    width: 712px;
+    float: left;
+    width: 100%;
     height: 455px;
 }
 
@@ -216,22 +214,11 @@ a {
     display: block;
 }
 
-.Focus-img1 {
+.Focus-img {
+    display: block;
     width: 710px;
     height: 443px;
-    background: url(img/jdt-1.jpeg) no-repeat;
-}
-
-.Focus-img2 {
-    width: 710px;
-    height: 443px;
-    background: url(img/jdt-2.jpeg) no-repeat;
-}
-
-.Focus-img3 {
-    width: 710px;
-    height: 443px;
-    background: url(img/jdt-3.png) no-repeat;
+    background: no-repeat;
 }
 
 .Focus-title {
@@ -255,8 +242,8 @@ a {
 
 .Focus-points {
     position: absolute;
-    right: 15px;
     bottom: 76px;
+    left: 590px;
     z-index: 5;
     overflow:hidden;
     width: 104px;
@@ -274,4 +261,171 @@ a {
 
 .Focus-point.is-current {
     background-position-x: -642px;
+}
+
+.Hot {
+    float: right;
+    overflow: hidden;
+    padding: 0 32px;
+    width: 402px;
+    height: 291px;
+    border: 1px solid #dedfe0;
+    background: #fff
+}
+
+.Hot-title {
+    margin: 0;
+    padding-top: 14px;
+    height: 36px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 16px;
+}
+
+.Hot-tags {
+    margin-left: -16px;
+    padding: 16px 0 0;
+    height:68px;
+    background: 0 0;
+}
+
+.Hot-span-sline {
+    width: 422px;
+}
+
+.Hot-tag {
+    display: inline-block;
+    padding: 0 20px 0 16px;
+    background: url(img/xbt.png) right 8px;
+}
+
+.Hot-spana {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0;
+    color: #444;
+    font-size: 13px;
+}
+
+.Hot-spans {
+    padding: 11px 0 5px;
+    height: 35px;
+    background: url(img/dian.png) repeat-x;
+}
+
+.Hot-span {
+    line-height: 20px;
+}
+
+.Hot-lable.event {
+    width: 26px;
+    height: 20px;
+    background-color: #fb3;
+}
+
+.Hot-lable {
+    margin-left: 5px;
+    padding: 2.5px 3px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.Hot-lable.choice {
+    width:26px;
+    background-color: #f46;
+}
+
+.Hot-spans.Hot-app {
+    padding-top: 10px;
+    border-top: 1px solid #ebebeb;
+    background: 0 0;
+}
+
+.Appdownload {
+    float: right;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 468px;
+    height: 130px;
+    background-color: #fff;
+}
+
+.Appdownload-link {
+    display: block;
+    height: 128px;
+    border: 1px solid #dedfe0;
+    background: url(img/app-download.jpeg) no-repeat center;
+    text-indent: -9999px;
+}
+
+.Center {
+    overflow: hidden;
+    width:100%;
+}
+
+.Share {
+    margin-top: 40px;
+    border-top: 1px solid #d4d5d5;
+}
+
+.Enery-zjjx {
+    margin: 28px 0;
+}
+
+.Select-titles {
+    float:left;
+    margin: 0;
+    color: #444;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Btn-zjjx {
+    float: right;
+    margin:0 auto;
+    width: 80px;
+    height: 28px;
+    border-radius: 2px;
+    background-color: #22b4f6;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.Select-all{
+    overflow: hidden;
+    margin-right: -30px;
+    height: 324px;
+}
+
+.Select-block {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 224px;
+    height: 324px;
+    border: 1px solid #dedfe0;
+    background-color: #fff;
+}
+
+.Block-img {
+    display: block;
+}
+
+.Block-text {
+    padding: 12px 10px 0;
+    height: 34px;
+    color: #444;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.Select-attr {
+    padding: 8px 10px 12px;
+    height: 34px;
+    color: #888;
+    font-size: 12px;
 }
