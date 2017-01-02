@@ -406,7 +406,7 @@ a {
     float: left;
     margin-right: 20px;
     width: 224px;
-    height: 324px;
+    height: 322px;
     border: 1px solid #dedfe0;
     background-color: #fff;
 }
@@ -428,4 +428,65 @@ a {
     height: 34px;
     color: #888;
     font-size: 12px;
+}
+
+.Enery-dptj {
+    margin: 28px 0;
+}
+
+.Recommend-enery {
+    float: right;
+    margin:0 auto;
+    width: 394px;
+    height: 28px;
+    color: #444;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.Enery-tag {
+    padding: 0 12px 0 10px;
+    background: url(img/xbt.png) right 1px;
+}
+
+.Enery-lasttag {
+    padding: 0 12px 0 10px;
+    background: 0 0;
+}
+
+.Recommend-block {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 224px;
+    height: 294px;
+    border: 1px solid #dedfe0;
+    background-color: #fff;
+}
+
+.Recommend-attr {
+    height: 34px;
+    color: #888;
+    font-size: 12px;
+}
+
+.Select-scs {
+    padding: 0 12px 12px;
+}
+
+.Select-lpg {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 56px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: #fb3;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+    text-orientation: none;
 }
