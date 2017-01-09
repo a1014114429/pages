@@ -360,12 +360,74 @@
                     <div class="Selected-hd u-cf">
                         <h2 class="Selected-title">大家正在逛</h2>
                     </div>
+                    <div class="Example">
+                        <div class="Example-column"></div>
+                        <div class="Example-column"></div>
+                        <div class="Example-column"></div>
+                        <div class="Example-column"></div>
+                        <div class="Example-column"></div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="Footer"></div>
     </body>
+    <script id="Example-item--Template" type="text/template">
+        <a target="blank" href="https://www.duitang.com/blog/?id=685735447">
+            <img src="img/01.jpeg">
+        </a>
+        <div class="Example-title">
+            <span class="Example-store">阴阳师€跳跳哥</span>
+            <p class="Example-zan">★24<span> 👍13</span></p>
+            <a class="Example-comment" target="blank" href="https://www.duitang.com/people/?user_id=5399099">你有没有看见我的兔子</a>
+            <p class="Example-comment">收集到
+            <a target="blank" href="https://www.duitang.com/album/?id=80597880"> 阴阳师</a>
+            </p>
+        </div>
+
+    </script>
+
+    <script>
+        // 计算下一个项目应该添加到第几列（高度最矮的那一列）
+        var getNextColumnIndex = function () {
+            var columns = document.querySelectorAll('.Example-column');
+
+            var nextColumnIndex = 0;
+            var nextColumnHeight = columns[0].offsetHeight;
+
+            for (var i = 1, count = columns.length; i < count; i++) {
+                if (columns[i].offsetHeight < nextColumnHeight) {
+                    nextColumnIndex = i;
+                    nextColumnHeight = columns[i].offsetHeight;
+                }
+            }
+
+            return nextColumnIndex;
+        };
+
+        // 创建并添加一个项目
+        var loadItem  = function () {
+            var item = document.createElement('div');
+
+            item.className = 'Example-item';
+            item.style.height = Math.floor(Math.random() * 100 + 300) + 'px'; // 真实环境不需要
+            item.innerHTML = document.getElementById('Example-item--Template').innerHTML;
+
+            var nextColumnIndex = getNextColumnIndex();
+            document.querySelectorAll('.Example-column')[nextColumnIndex].append(item);
+        };
+
+        // 创建并添加指定数量个项目
+        var loadItems = function (amount) {
+            for (var i = 0; i < amount; i++) {
+                loadItem();
+            }
+        };
+
+        // 创建并添加 20 个项目
+        loadItems(20);
+    </script>
     <script src="jquery-min.js"></script>
     <script src="main.js"></script>
 </html>

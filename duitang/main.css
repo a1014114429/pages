@@ -557,3 +557,46 @@ a {
 .Selected-then {
     border-top: 1px solid #d4d5d5;
 }
+
+.Example {
+    margin-right: -30px;
+}
+
+.Example-column {
+    float: left;
+    margin-right: 20px;
+    width: 224px;
+}
+
+.Example-item {
+    width: 100%;
+}
+
+.Example-title {
+    margin-bottom: 20px;
+    border-right: 1px solid #dedfe0;
+    border-bottom: 1px solid #dedfe0;
+    border-left: 1px solid #dedfe0;
+    background: #fff;
+}
+
+.Example-store {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #444;
+    text-align: center;
+    font-size: 12px;
+}
+
+.Example-zan {
+    padding-bottom:10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #dedfe0;
+    color: #a0a0a0;
+}
+
+.Example-comment {
+    padding-left: 40px;
+    color: #444;
+    font-size: 12px;
+}

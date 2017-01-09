@@ -6,3 +6,4 @@ $('.Focus-point').click(function () {
     $('.Focus-item').removeClass('is-current');
     $('.Focus-item').eq(idx).addClass('is-current');
 });
+
