@@ -245,7 +245,7 @@ a {
 .Focus-points {
     position: absolute;
     bottom: 76px;
-    left: 590px;
+    left: 560px;
     z-index: 5;
     overflow:hidden;
     width: 104px;
@@ -573,6 +573,7 @@ a {
 }
 
 .Example-title {
+    margin-top: -5px;
     margin-bottom: 20px;
     border-right: 1px solid #dedfe0;
     border-bottom: 1px solid #dedfe0;
@@ -581,6 +582,7 @@ a {
 }
 
 .Example-store {
+    margin-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     color: #444;
