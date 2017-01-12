@@ -643,6 +643,7 @@ a {
 
 .Footer-list {
     width: 1222px;
+    height: 160px;
 }
 
 .Footer-items {
@@ -664,10 +665,79 @@ a {
     font-size: 13px;
 }
 
+.Footer-item {
+    width: 200px;
+    height: 110px;
+}
+
 .Footer-tag {
     float: left;
     width: 100px;
     height: 30px;
     color: #666;
     font-size: 13px;
+}
+
+.Footer-items-2wm {
+    float: left;
+    overflow: hidden;
+    padding: 9px 32px;
+    width: 179px;
+    height: 142px;
+    border-left: 1px solid #cfd0d1;
+    text-align: center;
+}
+
+.Footer-code {
+    margin: 5px auto;
+    padding: 3px;
+    width: 88px;
+    height: 88px;
+    background-color: #fff;
+}
+
+.Footer-bottom {
+    margin: 20px auto 5px;
+    height: 47px;
+    color: #888;
+    text-align: center;
+    font-size: 13px;
+    line-height: 47px;
+}
+
+.Footer-zx {
+    display: inline-block;
+    margin-left: 10px;
+    width: 128px;
+    height: 36px;
+    background: url(img/xbt.png) -920px -490px no-repeat;
+    vertical-align: middle;
+}
+
+.Footer-wb {
+    display: inline-block;
+    margin-left: 10px;
+    width: 102px;
+    height: 36px;
+    background: url(img/xbt.png) -798px -540px no-repeat;
+    vertical-align: middle;
+}
+
+.Footer-wab {
+    display: inline-block;
+    margin-left: 10px;
+    width: 113px;
+    height: 36px;
+    background: url(img/wab.png) no-repeat;
+    vertical-align: middle;
+}
+
+.Footer-rz {
+    display: inline-block;
+    margin-left: 10px;
+    width: 96px;
+    height: 36px;
+    background: url(img/rz.jpeg) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
 }
