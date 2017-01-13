@@ -504,12 +504,16 @@ a {
     background-color: #fff;
 }
 
+.Figure-umb {
+    display: block;
+    width: 224px;
+    height: 114px;
+}
+
 .Figure-upper {
     display: block;
     width: 224px;
     height: 114px;
-    background: url(img/drtj-1.jpeg);
-    background-size: cover;
 }
 
 .Figure-middle {
@@ -524,11 +528,11 @@ a {
 }
 
 .Figure-below {
-    transform: translate3d(126px,126px,0);
+    transform: translate3d(126px,12px,0);
 }
 
 .Selected-store {
-    padding-top: 130px;
+    padding-top: 20px;
     padding-right: 10px;
     padding-left: 10px;
     color: #444;
